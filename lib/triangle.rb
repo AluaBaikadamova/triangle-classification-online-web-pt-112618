@@ -19,7 +19,10 @@ class Triangle
    end
  elseif (@name1==@name2)&&(@name2==@name3)
       return :equilateral
+      elseif (@name1==@name2)||(@name2==@name3)||(@name1==@name3)
+      return :equilateral
     else
+      return :scalene
   end
   end
   
