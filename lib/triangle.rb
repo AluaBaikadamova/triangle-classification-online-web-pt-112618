@@ -17,8 +17,8 @@ class Triangle
    #  rescue TriangleError => error
    #      puts error.message
    end
- #   else
- #     return :equilateral
+ elseif (@name1==@name2)&&(@name2==@name3)
+      return :equilateral
   end
   end
   
