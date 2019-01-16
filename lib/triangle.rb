@@ -8,8 +8,8 @@ class Triangle
   
   end
   
-  def kind (lalala=self)
-   self.kind
+  def kind 
+
     
   #  if (@name1>=@name2+@name3)||(@name2>=@name1+@name3)||(@name3>=@name2+@name1)||(@name1<=0)||(@name2<=0)||(@name3<=0)
    #  begin
