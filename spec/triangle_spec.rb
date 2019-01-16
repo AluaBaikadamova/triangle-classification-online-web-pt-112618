@@ -17,7 +17,7 @@ describe 'Triangle' do
   end
 
   it 'knows that isosceles triangles have two first sides equal' do
-    a=
+  a=
     (Triangle.new(4, 4, 3).kind).to eq(:isosceles)
   end
 
