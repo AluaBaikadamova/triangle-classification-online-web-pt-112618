@@ -19,7 +19,7 @@ class Triangle
    end
  #   else
  #     return :equilateral
- #  end
+  end
   end
   
   class TriangleError < StandardError
