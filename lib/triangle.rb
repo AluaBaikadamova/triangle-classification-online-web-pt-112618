@@ -11,12 +11,12 @@ class Triangle
   def kind 
 
     
-  #  if (@name1>=@name2+@name3)||(@name2>=@name1+@name3)||(@name3>=@name2+@name1)||(@name1<=0)||(@name2<=0)||(@name3<=0)
-   #  begin
+   if (@name1>=@name2+@name3)||(@name2>=@name1+@name3)||(@name3>=@name2+@name1)||(@name1<=0)||(@name2<=0)||(@name3<=0)
+    begin
        raise TriangleError
    #  rescue TriangleError => error
    #      puts error.message
-  #   end
+   end
  #   else
  #     return :equilateral
  #  end
